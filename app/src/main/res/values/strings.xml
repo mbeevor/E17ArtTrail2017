@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">E17 Art Trail</string>
-    <string name="heading">Welcome to a Walthamstow phenomenon</string>
-    <string name="sub_heading">It’s here! The E17 Art Trail, the largest community-led arts festival in London.</string>
-    <string name="intro_text">Happening over 16 days from 3-18 June, this year sees over 7,000 local artists, residents, open studios, schools and workplaces across Walthamstow inviting you to enjoy every element of this year’s E17 Art Trail theme, STEAM, celebrating Science, Technology, Engineering, Art and Mathematics.</string>
+    <string name="heading">Welcome!</string>
 
     <!-- menu array list for navigation drawer -->
     <string-array name="menu_list">
@@ -10,4 +8,7 @@
         <item>Off the Map</item>
         <item>Blackhorse and Higham Hill Trail</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
