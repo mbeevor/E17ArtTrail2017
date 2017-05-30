@@ -7,6 +7,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -31,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
         activityTypes = getResources().getStringArray(R.array.menu_list);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
+
+        // Add header image to nav drawer
+        LayoutInflater inflater = getLayoutInflater();
+        View listHeaderView = inflater.inflate(R.layout.nav_header, null, false);
+        drawerList.addHeaderView(listHeaderView);
 
         // Set Toolbar to replace the ActionBar.
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -79,9 +85,12 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new EventsFragment();
                     break;
                 case 1:
-                    fragment = new OffTheMapFragment();
+                    fragment = new EventsFragment();
                     break;
                 case 2:
+                    fragment = new OffTheMapFragment();
+                    break;
+                case 3:
                     fragment = new BlackhorseFragment();
                     break;
                 default:

@@ -1,8 +1,8 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="@dimen/list_item_width"
+    android:layout_height="@dimen/list_item_height"
     android:padding="@dimen/padding"
     android:textColor="@color/colorPrimary"
     tools:text="list item" />
