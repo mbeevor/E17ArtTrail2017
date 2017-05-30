@@ -4,4 +4,11 @@
     <dimen name="padding">16dp</dimen>
     <dimen name="narrow_padding">10dp</dimen>
 
+    <!-- dimens for navigation drawer -->
+    <dimen name="nav_drawer_width">240dp</dimen>
+
+    <!-- dimens for individual list items -->
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_width">88dp</dimen>
+
 </resources>
