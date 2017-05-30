@@ -8,13 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- style for navigation drawer -->
-    <style name="navDrawer">
+    <!-- style for listview in navigation drawer -->
+    <style name="listView">
         <item name="android:layout_width">@dimen/nav_drawer_width</item>
         <item name="android:layout_height">match_parent</item>
+        <item name="android:choiceMode">singleChoice</item>
         <item name="android:layout_gravity">start</item>
         <item name="android:background">@color/white</item>
-        <item name="android:choiceMode">singleChoice</item>
         <item name="android:divider">@android:color/transparent</item>
         <item name="android:dividerHeight">0dp</item>
     </style>

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -14,10 +15,10 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     // index to identify current nav menu item
-    public static int navItemIndex = 0;
     private String[] activityTypes;
     private DrawerLayout drawerLayout;
     private ListView drawerList;
+    private ActionBarDrawerToggle drawerToggle;
     private Toolbar toolbar;
     private Fragment fragment;
 
@@ -26,20 +27,41 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Set Toolbar to replace the ActionBar.
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         // Find resources for navigation drawer
         activityTypes = getResources().getStringArray(R.array.menu_list);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
+
+        // Set Toolbar to replace the ActionBar.
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        // Extend ActionBarDrawerToggle to listen to opening and closing of navigation drawer
+        drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close) {
+
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+            }
+        };
+
+        drawerLayout.addDrawerListener(drawerToggle);
+
+        // Create toolbar menu icon
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         // Create an adapter for the list view within navigation drawer
         drawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.list_item, activityTypes));
 
         // Set onClickListeners for each item in navigation drawer
         drawerList.setOnItemClickListener(new NavigationDrawer());
+
     }
 
     public class NavigationDrawer implements ListView.OnItemClickListener {
@@ -76,6 +98,13 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.closeDrawer(drawerList);
             }
         }
+    }
+
+    // Convert toolbar menu icon to 'hamburger'
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        drawerToggle.syncState();
     }
 
 }

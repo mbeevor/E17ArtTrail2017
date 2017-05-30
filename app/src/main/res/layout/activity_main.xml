@@ -32,8 +32,10 @@
     </LinearLayout>
 
     <!-- content of navigation drawer -->
+
     <ListView
         android:id="@+id/left_drawer"
-        style="@style/navDrawer" />
+        style="@style/listView" />
+
 
 </android.support.v4.widget.DrawerLayout>
