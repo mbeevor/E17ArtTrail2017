@@ -69,6 +69,14 @@ public class MainActivity extends AppCompatActivity {
         drawerList.setOnItemClickListener(new NavigationDrawer());
 
     }
+    
+     // Convert toolbar menu icon to 'hamburger'
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        drawerToggle.syncState();
+    }
+
 
     public class NavigationDrawer implements ListView.OnItemClickListener {
 
@@ -79,10 +87,10 @@ public class MainActivity extends AppCompatActivity {
 
         // update view based on menu item selected
         private void displayView(int position) {
-            fragment = null;
+            
             switch (position) {
                 case 0:
-                    fragment = new EventsFragment();
+                    fragment = new HomeFragment();
                     break;
                 case 1:
                     fragment = new EventsFragment();
@@ -98,24 +106,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Update the main content view with selected fragment
-            if (fragment != null) {
-                FragmentManager fragmentManager = getSupportFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content, fragment).commit();
 
-                // Highlight the selected item and close the drawer
-                drawerList.setItemChecked(position, true);
-                drawerLayout.closeDrawer(drawerList);
-            }
-        }
+            // Highlight the selected item and close the drawer
+            drawerList.setItemChecked(position, true);
+            drawerLayout.closeDrawer(drawerList);
+          }
     }
 
-    // Convert toolbar menu icon to 'hamburger'
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        drawerToggle.syncState();
-    }
-
+   
 }
 
 
