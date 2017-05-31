@@ -5,7 +5,8 @@
     <dimen name="narrow_padding">10dp</dimen>
 
     <!-- dimens for navigation drawer -->
-    <dimen name="nav_drawer_width">300dp</dimen>
+    <dimen name="nav_drawer_width">250dp</dimen>
+    <dimen name="nav_image_height">250dp</dimen>
 
     <!-- dimens for individual list items -->
     <dimen name="list_item_height">50dp</dimen>

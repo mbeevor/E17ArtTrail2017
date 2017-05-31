@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
-    private Toolbar toolbar;
     private Fragment fragment;
 
     @Override
@@ -39,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         drawerList.addHeaderView(listHeaderView);
 
         // Set Toolbar to replace the ActionBar.
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         // Extend ActionBarDrawerToggle to listen to opening and closing of navigation drawer
@@ -66,11 +65,11 @@ public class MainActivity extends AppCompatActivity {
         drawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.list_item, activityTypes));
 
         // Set onClickListeners for each item in navigation drawer
-        drawerList.setOnItemClickListener(new NavigationDrawer());
+        drawerList.setOnItemClickListener(new NavigationDrawerSelection());
 
     }
-    
-     // Convert toolbar menu icon to 'hamburger'
+
+    // Convert toolbar menu icon to 'hamburger'
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
@@ -78,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public class NavigationDrawer implements ListView.OnItemClickListener {
+    public class NavigationDrawerSelection implements ListView.OnItemClickListener {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -87,7 +86,6 @@ public class MainActivity extends AppCompatActivity {
 
         // update view based on menu item selected
         private void displayView(int position) {
-            
             switch (position) {
                 case 0:
                     fragment = new HomeFragment();
@@ -102,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new BlackhorseFragment();
                     break;
                 default:
+                    fragment = new HomeFragment();
                     break;
             }
 
@@ -112,10 +111,10 @@ public class MainActivity extends AppCompatActivity {
             // Highlight the selected item and close the drawer
             drawerList.setItemChecked(position, true);
             drawerLayout.closeDrawer(drawerList);
-          }
+        }
     }
 
-   
+
 }
 
 
