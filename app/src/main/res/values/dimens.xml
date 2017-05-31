@@ -12,4 +12,8 @@
     <dimen name="list_item_height">50dp</dimen>
     <dimen name="list_item_width">240dp</dimen>
 
+    <!-- dimens for individual listings -->
+    <dimen name="text">100dp</dimen>
+    <dimen name="image">90dp</dimen>
+
 </resources>

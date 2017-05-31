@@ -15,12 +15,9 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    // index to identify current nav menu item
-    private String[] activityTypes;
     private DrawerLayout drawerLayout;
     private ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
-    private Fragment fragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find resources for navigation drawer
-        activityTypes = getResources().getStringArray(R.array.menu_list);
+        String[] activityTypes = getResources().getStringArray(R.array.menu_list);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
 
@@ -62,11 +59,10 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         // Create an adapter for the list view within navigation drawer
-        drawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.list_item, activityTypes));
+        drawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.menu_list_item, activityTypes));
 
         // Set onClickListeners for each item in navigation drawer
         drawerList.setOnItemClickListener(new NavigationDrawerSelection());
-
     }
 
     // Convert toolbar menu icon to 'hamburger'
@@ -81,11 +77,12 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            displayView(position);
+            displayFragment(position);
         }
 
         // update view based on menu item selected
-        private void displayView(int position) {
+        public void displayFragment(int position) {
+            Fragment fragment;
             switch (position) {
                 case 0:
                     fragment = new HomeFragment();

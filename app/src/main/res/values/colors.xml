@@ -3,6 +3,7 @@
     <color name="colorPrimary">#ED1C24</color>
     <color name="colorPrimaryDark">#be362c</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="black">#222222</color>
     <color name="white">#FFFFFF</color>
     <color name="footer">#808080</color>
 </resources>
