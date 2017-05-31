@@ -16,14 +16,14 @@
             tools:text="event Title" />
 
         <TextView
-            android:id="@+id/address"
-            style="@style/listTextBold"
-            tools:text="event address" />
-
-        <TextView
             android:id="@+id/date"
             style="@style/listTextRed"
             tools:text="day, date and time" />
+
+        <TextView
+            android:id="@+id/address"
+            style="@style/listTextBold"
+            tools:text="event address" />
 
         <TextView
             android:id="@+id/description"

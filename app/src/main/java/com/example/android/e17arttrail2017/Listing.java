@@ -10,15 +10,15 @@ public class Listing {
     private String EventDate;
     private String EventLocation;
     private String EventDescription;
-//    private int EventImage;
+    private int EventImage;
 
-//    public Listing(String eventName, String eventDate, String eventLocation, String eventDescription, int eventImage) {
-//        EventName = eventName;
-//        EventDate = eventDate;
-//        EventLocation = eventLocation;
-//        EventDescription = eventDescription;
-//        EventImage = eventImage;
-//    }
+    public Listing(String eventName, String eventDate, String eventLocation, String eventDescription, int eventImage) {
+        EventName = eventName;
+        EventDate = eventDate;
+        EventLocation = eventLocation;
+        EventDescription = eventDescription;
+        EventImage = eventImage;
+    }
 
     public Listing(String eventName, String eventDate, String eventLocation, String eventDescription) {
         EventName = eventName;
@@ -44,8 +44,8 @@ public class Listing {
         return EventDescription;
     }
 
-//    public int getEventImage() {
-//        return EventImage;
-//    }
+    public int getEventImage() {
+        return EventImage;
+    }
 }
 

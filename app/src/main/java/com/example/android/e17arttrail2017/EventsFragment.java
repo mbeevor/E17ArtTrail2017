@@ -25,7 +25,8 @@ public class EventsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.event_list, container, false);
 
         final ArrayList<Listing> events = new ArrayList<Listing>();
-        events.add(new Listing("Process Paper Making and Print Making", "The Lodge Walthamstow School for Girls", "Saturday 3 June 9 until 12pm", "Drop in to create your own paper and print"));
+        events.add(new Listing(R.string.event_title_one, R.string.event_date_one, R.string.event_address_one, R.string.event_description_one, R.drawable.event_image_one));
+        events.add(new Listing(R.string.event_title_two, R.string.event_date_two, R.string.event_address_two, R.string.event_description_two));
 
         ListAdapter adapter = new ListAdapter(getActivity(), events);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
