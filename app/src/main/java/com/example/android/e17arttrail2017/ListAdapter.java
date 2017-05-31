@@ -5,19 +5,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Adapter for creating each individual list item
  */
 
-public class ListingAdapter extends ArrayAdapter<Listing> {
+public class ListAdapter extends ArrayAdapter<Listing> {
 
-    public ListingAdapter(Context context, ArrayList<Listing> events) {
+    public ListAdapter(Context context, ArrayList<Listing> events) {
         super(context, 0, events);
     }
 
@@ -25,7 +23,7 @@ public class ListingAdapter extends ArrayAdapter<Listing> {
     public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
         if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.event_list, parent, false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.fragment_list_item, parent, false);
         }
 
         Listing Listing = getItem(position);
@@ -42,8 +40,8 @@ public class ListingAdapter extends ArrayAdapter<Listing> {
         TextView eventDescription = (TextView) listItemView.findViewById(R.id.description);
         eventDescription.setText(Listing.getEventDescription());
 
-        ImageView eventImage = (ImageView) listItemView.findViewById(R.id.image);
-        eventImage.setImageResource(Listing.getEventImage());
+//        ImageView eventImage = (ImageView) listItemView.findViewById(R.id.image);
+//        eventImage.setImageResource(Listing.getEventImage());
 
         return listItemView;
     }

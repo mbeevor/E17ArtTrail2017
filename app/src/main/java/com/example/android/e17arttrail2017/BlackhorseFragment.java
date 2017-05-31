@@ -3,7 +3,12 @@ package com.example.android.e17arttrail2017;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.widget.Toast;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 
 /**
@@ -12,10 +17,17 @@ import android.widget.Toast;
 public class BlackhorseFragment extends Fragment {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.event_list, container, false);
 
-        Toast.makeText(getActivity(),"Blackhorse Road clicked", Toast.LENGTH_SHORT).show();
+        final ArrayList<Listing> events = new ArrayList<Listing>();
+        events.add(new Listing("Process Paper Making and Print Making", "The Lodge Walthamstow School for Girls", "Saturday 3 June 9 until 12pm", "Drop in to create your own paper and print"));
+
+        ListAdapter adapter = new ListAdapter(getActivity(), events);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        listView.setAdapter(adapter);
+
+        return rootView;
     }
 
     public BlackhorseFragment() {

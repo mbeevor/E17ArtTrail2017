@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -26,9 +25,9 @@ public class EventsFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.event_list, container, false);
 
         final ArrayList<Listing> events = new ArrayList<Listing>();
-        events.add(new Listing("Process Paper Making and Print Making", "The Lodge Walthamstow School for Girls", "Saturday 3 June 9 until 12pm", "Drop in to create your own paper and print", R.drawable.e17logo300));
+        events.add(new Listing("Process Paper Making and Print Making", "The Lodge Walthamstow School for Girls", "Saturday 3 June 9 until 12pm", "Drop in to create your own paper and print"));
 
-        ListingAdapter adapter = new ListingAdapter(getActivity(), events);
+        ListAdapter adapter = new ListAdapter(getActivity(), events);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
