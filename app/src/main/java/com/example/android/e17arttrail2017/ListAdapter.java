@@ -42,7 +42,13 @@ public class ListAdapter extends ArrayAdapter<Listing> {
         eventDescription.setText(Listing.getEventDescription());
 
         ImageView eventImage = (ImageView) listItemView.findViewById(R.id.image);
-        eventImage.setImageResource(Listing.getEventImage());
+        // check boolean in 'Listing' to determine if space needed to display image
+        if (Listing.hasImage()) {
+            eventImage.setImageResource(Listing.getEventImage());
+            eventImage.setVisibility(View.VISIBLE);
+        } else {
+            eventImage.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }

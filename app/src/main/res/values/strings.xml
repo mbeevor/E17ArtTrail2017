@@ -15,16 +15,7 @@
     <string name="drawer_close">Navigation drawer closed</string>
 
     <!-- Event Calendar List -->
-    <string name="event_title_one">PROCESS: PAPER MAKING AND PRINT MAKING</string>
-    <string name="event_date_one">Saturday, 3 June, 9.30am-12pm</string>
-    <string name="event_address_one">The Lodge, Walthamstow School For Girls, Church Hill</string>
-    <string name="event_description_one">Drop in to create your own paper and print. Explore and experiment with printmaking possibiliti es to create your own print to take away.</string>
 
-    <string name="event_title_two">MARBLING AND SHAPE BUILDING WITH PLYCONIC</string>
-    <string name="event_date_two">Saturday, 3 June, 10am-1pm</string>
-    <string name="event_address_two">cafe @ Gnome House, 7 Blackhorse Lane</string>
-    <string name="event_description_two">Come and try this easy marbling, free workshop for kids. Hosted by local furniture maker Plyconic. Make your own piece of marbling art to take home. We will also have PlyShapes for kids to build mini sculptures with.
-</string>
 
 
 </resources>

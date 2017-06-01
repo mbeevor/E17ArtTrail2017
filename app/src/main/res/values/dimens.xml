@@ -13,7 +13,7 @@
     <dimen name="list_item_width">240dp</dimen>
 
     <!-- dimens for individual listings -->
-    <dimen name="text">100dp</dimen>
+    <dimen name="text">200dp</dimen>
     <dimen name="image">80dp</dimen>
 
 </resources>
