@@ -25,15 +25,19 @@ public class TabAdapter extends FragmentPagerAdapter {
             return new EventsFragment();
         } else if (position == 1) {
             return new OffTheMapFragment();
-        } else {
+        } else if (position == 2)  {
             return new BlackhorseFragment();
+        } else if (position == 3) {
+            return new WilliamMorrisFragment();
+        } else {
+            return new HighStreetFragment();
         }
     }
 
     // Return the number of tabs to display
     @Override
     public int getCount() {
-        return 3;
+        return 5;
     }
 
     @Override
@@ -42,8 +46,12 @@ public class TabAdapter extends FragmentPagerAdapter {
             return context.getString(R.string.events);
         } else if (position == 1) {
             return context.getString(R.string.off_the_map);
-        } else {
+        } else if (position == 2) {
             return context.getString(R.string.blackhorse);
+        } else if (position == 3){
+            return context.getString(R.string.william);
+        } else {
+            return context.getString(R.string.high_street);
         }
     }
 }

@@ -5,9 +5,11 @@
     <string name="intro_text">Happening over 16 days from 3-18 June, this year sees over 7,000 local artists, residents, open studios, schools and workplaces across Walthamstow inviting you to enjoy every element of this year’s E17 Art Trail theme, STEAM, celebrating Science, Technology, Engineering, Art and Mathematics.</string>
 
     <!-- menu  list for tab list -->
-    <string name="events">Calendar</string>
+    <string name="events">Events</string>
     <string name="off_the_map">Off the Map</string>
-    <string name="blackhorse">BHH Trail</string>
+    <string name="blackhorse">Blackhorse</string>
+    <string name="william">William Morris</string>
+    <string name="high_street">High Street</string>
 
     <!-- menu array list for navigation drawer -->
     <string-array name="drawer_menu">
@@ -297,5 +299,143 @@ Look and Look Again. Book in advance by text or email. 07890 996916 or cowper@ho
     <string name="OTM_date_seven">24 hours</string>
     <string name="OTM_address_seven">www.roanallen.com</string>
     <string name="OTM_description_seven">2.0131 </string>
+
+
+    <!-- Blackhorse List -->
+    <string name="BHH_title_one">CLOSELY</string>
+    <string name="BHH_date_one">Sat-Sun 12pm-6pm, Mon/Wed/Fri 2pm-6pm</string>
+    <string name="BHH_address_one">18 Lee Close</string>
+    <string name="BHH_description_one">Open shared studio of Mick Mills and Jane Cunningham,
+        featuring vibrant painted collages, drawings and ﬁgurative ceramics.
+        Please contact Jane for details of workshops and visiting outside opening times. 07973 562364</string>
+
+    <string name="BHH_title_two">WE LOVE LEGO</string>
+    <string name="BHH_date_two">Saturday, 3 June, 10am-6pm and Sunday, 4 June, 10am-5pm</string>
+    <string name="BHH_address_two">Higham Hill Hub, Higham Hill Park </string>
+    <string name="BHH_description_two">Terriﬁc LEGO creations by adults and children.
+        Expect to see castles, space ships, vehicles, houses and even LEGO art.
+        Visitors can make their own creations in our LEGO play area and add them to the display.</string>
+
+    <string name="BHH_title_three">NOSTALJI PRESENTS: PINS AND STRINGS</string>
+    <string name="BHH_date_three">Sat 1pm-5pm, Sun 1pm-4pm, Wed 11am-2pm</string>
+    <string name="BHH_address_three">219 Billet Road</string>
+    <string name="BHH_description_three">Nostalgia, un-synced vintage home designs,
+        invite you in for a ﬁrst peek at their unique take on reupholstered, up-cycled and re-purposed vintage furniture,
+        celebrating the occasion with a display of 70s string art</string>
+
+    <string name="BHH_title_four">OPEN STUDIOS AND SILENT AUCTION</string>
+    <string name="BHH_date_four">Saturday, 17 and Sunday, 18 June from 12pm-6pm</string>
+    <string name="BHH_address_four">Blackhorse Lane Studios, 114 Blackhorse Lane, E17 6AA</string>
+    <string name="BHH_description_four">Experience artists’ private worlds and see the exhibition “Folding and Unfolding Time”,
+        curated by Neil Irons. Place a bid in the Silent Auction.
+        Enter the Kids’ Quiz and take a trip on Julie Caves’ tour of the studios.</string>
+
+    <string name="BHH_title_five">PLASTIC FOOT PRINT: ARTIVISM</string>
+    <string name="BHH_date_five">Friday, 16 June, 6pm-9pm / Saturday, 17 and Sunday, 18 June, 12pm-6pm</string>
+    <string name="BHH_address_five">Blackhorse Lane Studios, 114 Blackhorse Lane, E17 6AA</string>
+    <string name="BHH_description_five">Greenpeace Waltham Forest have teamed up with artist Sandie M Sutton,
+        to promote plastic reduction. Transform waste plastic into art.
+        Free family drop in workshop 2-4pm on 17 and 18 June.</string>
+
+    <string name="BHH_title_six">MORE NEWS FROM NOWHERE</string>
+    <string name="BHH_date_six">Friday, 16 June 8pm-midnight, Saturday, 17 and Sunday, 18 June 11am-midnight</string>
+    <string name="BHH_address_six">Pulse Studios, Unit K, Blackhorse Mews </string>
+    <string name="BHH_description_six">The MNFN collective have been bringing the best in experimental sound and
+        music to E17 for the last year and a half. Join them at Pulse Studios for a series of auditory art
+        installations, events and workshops. See website for full programme details www.morenewsfromnowhere.co.uk</string>
+
+    <string name="BHH_title_seven">ANNA ALCOCK’S: THE SUN IS SILENT</string>
+    <string name="BHH_date_seven">Every day: Saturday-Sunday 1pm-7pm, Monday-Friday 12pm-6pm</string>
+    <string name="BHH_address_seven">Inky Cuttleﬁsh Studios, Gnome House, 7 Blackhorse Lane</string>
+    <string name="BHH_description_seven">Based on Dante’s ‘Inferno’, relief prints exploring archetypes,
+        the current cultural landscape, world aﬀ airs, sins, pleasures and the West’s descent into hell.
+        Opening Party 3 June, 6-11pm with cheese and wine. </string>
+
+    <!-- William Morris List -->
+    <string name="WM_title_one">(IM)POSSIBLE INVENTIONS</string>
+    <string name="WM_date_one">Sat-Sun 10am-2pm, Wed 2pm-8pm, Plus exhibition outside in daylight hours.</string>
+    <string name="WM_address_one">71 Douglas Avenue</string>
+    <string name="WM_description_one">Do you need a mechanical toothbrush, or an automatic egg launcher?
+        Come to Grow Your Own Theatre’s (Im)possible Inventors’ workshop.
+        Inspired by Wallace and Gromit and Rube-Goldberg - see our ideas and create your own.</string>
+
+    <string name="WM_title_two">THE UNDERSEA LIBRARY</string>
+    <string name="WM_date_two">Saturdays 10am-4pm, Mon/Thu/Fri 10am-6pm</string>
+    <string name="WM_address_two">Higham Hill Library, North Countess Road </string>
+    <string name="WM_description_two">What would we see if our library was under the sea?
+        Help us turn Higham Hill Library into an underwater world.
+        Children’s art activities will take place on Saturdays to create a mural and crafty sea creatures and plants.</string>
+
+    <string name="WM_title_three">AT HOME WITH SEAN, ANNA AND JENNIE</string>
+    <string name="WM_date_three">Saturday, 3, Saturday, 10 and Sunday, 18 June, 3-9pm</string>
+    <string name="WM_address_three">13 Thorpe Crescent</string>
+    <string name="WM_description_three">Sean the writer and Jennie and Anna the artists are showing their work around the theme of “home”.
+        Sean will be reading from his work. Jennie will also be launching her sewing book.</string>
+
+    <string name="WM_title_four">BODY. MASS.</string>
+    <string name="WM_date_four">Sunday, 4 and Sunday, 11 June, 11am-4pm</string>
+    <string name="WM_address_four">22 Rushbrook Crescent</string>
+    <string name="WM_description_four">Manifestati ons of naked humanity. Contemporary, ﬁgurative works inspired by the old masters.
+        Works on paper. Mixed media.</string>
+
+    <string name="WM_title_five">ROSE MAP ARTIST</string>
+    <string name="WM_date_five">Sat 10am-6pm, Sun 11pm-5pm</string>
+    <string name="WM_address_five">68 Brettenham Road</string>
+    <string name="WM_description_five">Experience the beauty of London as you have never seen it before.</string>
+
+    <string name="WM_title_six">LA LUNA</string>
+    <string name="WM_date_six">Daylight Hours</string>
+    <string name="WM_address_six">152 Brettenham Road (Green Garage Doors)</string>
+    <string name="WM_description_six">Intrigued by the representation of the moon and the female form in art from artists
+        such as Hiroshige to Mucha, I have been inspired to produce work ranging from black and white photographs
+        to lino prints.</string>
+
+    <string name="WM_title_seven">COGS AND SAWS</string>
+    <string name="WM_date_seven">Saturday, 10 and Saturday, 17 June, 12-6pm</string>
+    <string name="WM_address_seven">172 Brettenham Road</string>
+    <string name="WM_description_seven">Beautiful hand carved furniture by John Bain.
+        A clockwork chameleon, knife and fork crow and paper heron: sculptures by Ellie Noble. </string>
+
+    <!-- High Street List -->
+    <string name="HS_title_one">#ILOVEWALTHAMSTOW</string>
+    <string name="HS_date_one">Sat 8am-5.30pm, Sun 9am-5.30pm, Mon-Fri 6.30am-7.30pm</string>
+    <string name="HS_address_one">INCOMING Coﬀee, Unit 3, 4 Station Approach</string>
+    <string name="HS_description_one">The Amazing Illustrator Boy AKA Adam Graﬀ lets us into his world through photography with Walthamstow at its heart</string>
+
+    <string name="HS_title_two">FOUR IN THE YARD</string>
+    <string name="HS_date_two">Friday - Sunday, 11am-5pm</string>
+    <string name="HS_address_two">Albert Road Studio, 74 Albert Road (side gate)</string>
+    <string name="HS_description_two">Kati e Smith, Jack Farrell, Alice Farrell and Angel Reid:
+        A collective exhibition of ephemeral photographic landscape, thought-provoking installation, quirky pinhole photography and surreal illustration. </string>
+
+    <string name="HS_title_three">MISSION GROVE</string>
+    <string name="HS_date_three">Daylight hours</string>
+    <string name="HS_address_three">Mission Grove Primary School, South Site, 108 Edinburgh Road</string>
+    <string name="HS_description_three">Following on from their stunning collection of birds made by every class
+        in 2015 the students of Mission Grove share their latest creations. </string>
+
+    <string name="HS_title_four">EASTWEST COLLECTIVE</string>
+    <string name="HS_date_four">1-5.30pm</string>
+    <string name="HS_address_four">19 Exeter Road</string>
+    <string name="HS_description_four">Paul, Elif and Anna Maria invite you to experience craft s colliding,
+        by presenting a mixture of large-scale paintings, locally inspired urban prints and vintage smocked fabrics.
+        Inﬂuences span from Istanbul to Dartmoor. </string>
+
+    <string name="HS_title_five">HATCH AT EASTandCO</string>
+    <string name="HS_date_five">Sat 9.30am-2.30pm, Mon-Fri 9.30am-5.30pm</string>
+    <string name="HS_address_five">EastandCo, 252 Hoe Street</string>
+    <string name="HS_description_five">A collection of contemporary illustrations produced by the local artist Hatch</string>
+
+    <string name="HS_title_six">E17 DESIGNERS’ ART TRAIL SHOWCASE</string>
+    <string name="HS_date_six">Saturday, 9am-5pm, Mon-Fri 9am-6pm</string>
+    <string name="HS_address_six">Stow Brothers, 236 Hoe Street</string>
+    <string name="HS_description_six">E17 Designers take over @Stow Brothers: exhibition of selected designers during the E17 Art Trail fortnight.
+        Come to our market on Saturday 10th June at Mirth to buy what you like! </string>
+
+    <string name="HS_title_seven">WARNER ESTATE: UP CLOSE</string>
+    <string name="HS_date_seven">Saturday 9am-6pm, Sunday 10am-4pm, Mon-Fri 9am-7pm</string>
+    <string name="HS_address_seven">Walthamstow Library, High Street</string>
+    <string name="HS_description_seven">Photography by volunteers on ‘WE: the ex-Warner Estate in Waltham Forest’, a project supported by the Heritage Lott ery Fund.
+        The photographs explore the details of decoration and everyday life across the estate. </string>
 
 </resources>

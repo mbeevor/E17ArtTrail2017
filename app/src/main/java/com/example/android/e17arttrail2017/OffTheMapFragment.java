@@ -22,8 +22,10 @@ public class OffTheMapFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.event_list, container, false);
 
+        // create ArrayList for Off the Trail
         final ArrayList<Listing> events = new ArrayList<Listing>();
         events.add(new Listing(R.string.OTM_title_one, R.string.OTM_date_one, R.string.OTM_address_one, R.string.OTM_description_one));
         events.add(new Listing(R.string.OTM_title_two, R.string.OTM_date_two, R.string.OTM_address_two, R.string.OTM_description_two));
@@ -33,11 +35,14 @@ public class OffTheMapFragment extends Fragment {
         events.add(new Listing(R.string.OTM_title_six, R.string.OTM_date_six, R.string.OTM_address_six, R.string.OTM_description_six));
         events.add(new Listing(R.string.OTM_title_seven, R.string.OTM_date_seven, R.string.OTM_address_seven, R.string.OTM_description_seven));
 
+        // Attach ArrayList to adapter
         ListAdapter adapter = new ListAdapter(getActivity(), events);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;
     }
+
+
 }
 

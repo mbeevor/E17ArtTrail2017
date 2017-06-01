@@ -14,6 +14,6 @@
 
     <!-- dimens for individual listings -->
     <dimen name="text">200dp</dimen>
-    <dimen name="image">60dp</dimen>
+    <dimen name="image">120dp</dimen>
 
 </resources>

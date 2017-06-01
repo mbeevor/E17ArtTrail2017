@@ -24,6 +24,7 @@ public class EventsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.event_list, container, false);
 
+        // Create ArrayList for events calendar
         final ArrayList<Listing> events = new ArrayList<Listing>();
         events.add(new Listing(R.string.event_title_one, R.string.event_date_one, R.string.event_address_one, R.string.event_description_one, R.drawable.event_image_one));
         events.add(new Listing(R.string.event_title_two, R.string.event_date_two, R.string.event_address_two, R.string.event_description_two, R.drawable.event_image_two));
@@ -56,6 +57,7 @@ public class EventsFragment extends Fragment {
         events.add(new Listing(R.string.event_title_twenty_nine, R.string.event_date_twenty_nine, R.string.event_address_twenty_nine, R.string.event_description_twenty_nine, R.drawable.event_image_twenty_nine));
         events.add(new Listing(R.string.event_title_thirty, R.string.event_date_thirty, R.string.event_address_thirty, R.string.event_description_thirty));
 
+        // attach ArrayList to adapter
         ListAdapter adapter = new ListAdapter(getActivity(), events);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
