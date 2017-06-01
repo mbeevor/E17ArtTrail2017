@@ -6,8 +6,8 @@
 
     <!-- menu  list for tab list -->
     <string name="events">Calendar</string>
-    <string name="off_the_map">Exhibition</string>
-    <string name="blackhorse">BHHTrail</string>
+    <string name="off_the_map">Off the Map</string>
+    <string name="blackhorse">BHH Trail</string>
 
     <!-- menu array list for navigation drawer -->
     <string-array name="drawer_menu">
@@ -17,12 +17,12 @@
 
     <string name="drawer_open">Navigation drawer open</string>
     <string name="drawer_close">Navigation drawer closed</string>
-    
+
     <!-- Sponsor text -->
     <string name="sponsor">Message from our funder</string>
     <string name="sponsor_sub_heading">Waltham Forest Council is delighted to be supporting the E17 Art Trail again in 2017</string>
     <string name="sponsor_text">The E17 Art Trail is recognised in the borough and beyond as making a significant contribution to local arts and culture, and improving the quality of lives of Waltham Forest residents. It showcases and celebrates the amazing talent, creativity, diversity, ambition, and hospitality of so many of our residents, creating a sense of pride for local people and attracting new visitors to the borough. In the spirit of William Morris, the E17 Art Trail is all about creative participation for residents, which reflects Waltham Forest’s aspirations for Art for All.</string>
-    
+
     <!-- Event Calendar List -->
     <string name="event_title_one">PROCESS: PAPER MAKING AND PRINT MAKING</string>
     <string name="event_date_one">Saturday, 3 June, 9.30am-12pm</string>
@@ -34,57 +34,57 @@
     <string name="event_address_two">Cafe @ Gnome House, 7 Blackhorse Lane</string>
     <string name="event_description_two">Come and try this easy marbling, free workshop for kids. Hosted by local furniture maker Plyconic. Make your own piece of marbling art to take home. We will also have PlyShapes for kids to build mini sculptures with.</string>
 
-     <string name="event_title_three">ISLAMIC CALLIGRAPHY and DESIGN WORKSHOPS</string>
+    <string name="event_title_three">ISLAMIC CALLIGRAPHY and DESIGN WORKSHOPS</string>
     <string name="event_date_three">Saturday, 3 June, 10am-1pm</string>
     <string name="event_address_three">Fatimah Elizabeth Cates Academy, Frederick Bremer School, Siddely Road</string>
     <string name="event_description_three">A wonderful opportunity for people of all ages to experiment with Islamic calligraphy. Drop-in sessions organised with WF Stand Up to Racism.</string>
-    
-     <string name="event_title_four">MAKE A SILVER RING WORKSHOP</string>
+
+    <string name="event_title_four">MAKE A SILVER RING WORKSHOP</string>
     <string name="event_date_four">Saturday, 3 June:  11am-1.30pm/2-4.30pm/nSunday, 4 June, 11am-1.30pm/nThursday, 8 June, 6-8.30pm</string>
     <string name="event_address_four">Made by Ore, 30A Borwick Avenue, Unit 2</string>
     <string name="event_description_four">You will learn traditional silversmithing techniques such as soldering silver and hammering texture or letters to personalise your ring. At the end of the 2.5 hour workshop you will leave with a silver ring. Cost £35. Book in advance: 07980 213443</string>
-    
-     <string name="event_title_five">ICING ROOM: SUBLIMATE</string>
+
+    <string name="event_title_five">ICING ROOM: SUBLIMATE</string>
     <string name="event_date_five">Saturday, 3 June, 12-11pm</string>
     <string name="event_address_five">Pulse Studios, Unit K, Blackhorse Mews</string>
     <string name="event_description_five">The icing room take over Pulse - expect multi -sensory and collaborative encounters, with echoes of a secret society. The collective maintain their work in progress ethos. (Check Facebook for specific details.)</string>
-    
+
     <string name="event_title_six">E17 ART TRAIL WALKING TOUR</string>
     <string name="event_date_six">Saturday, 3 June, 12.45-4pm</string>
     <string name="event_address_six">Outside Walthamstow Library, High Street</string>
     <string name="event_description_six">Open to all. A social and relaxed way to visit a host of E17 Art Trail exhibitions accompanied by local artists. Departing at 1pm we aim to visit 10 venues.</string>
-    
-     <string name="event_title_seven">HEATHER’S HOUSE OF STORIES</string>
+
+    <string name="event_title_seven">HEATHER’S HOUSE OF STORIES</string>
     <string name="event_date_seven">Saturday, 3 and Saturday, 10 June at 2pm and 4pm</string>
     <string name="event_address_seven">Mirth, Marvel and Maud, 186 Hoe Street</string>
     <string name="event_description_seven">Join the fun with Heather and step inside a unique Walthamstow story. For 3 - 8 years. Tickets £6 - book now at www.mirthmarvelandmaud.com</string>
-    
+
     <string name="event_title_eight">CYCLING TOUR</string>
     <string name="event_date_eight">Saturday, 3 June, 2pm</string>
     <string name="event_address_eight">Outside William Morris Gallery, Forest Road</string>
     <string name="event_description_eight">Our official cycle tour leaders, Waltham Forest Cycling Campaign, choose the best routes to make the most of discovering what’s on the trail on the opening day.</string>
-    
+
     <string name="event_title_nine">CYCLING TOUR</string>
     <string name="event_date_nine">Sunday, 4 June,10.15am</string>
     <string name="event_address_nine">Outside Walthamstow Library, High Street</string>
     <string name="event_description_nine">Join this tour for the morning or the whole day and revel in making creative discoveries in homes, cafes and parks. Waltham Forest Cycling Campaign will schedule pit stops, bring snacks/lunch/ refreshments.</string>
-       
+
     <string name="event_title_ten">WALTHAMSTOW INTERNATIONAL FILM FESTIVAL</string>
     <string name="event_date_ten">Sunday, 4 June, 11am-4.45pm</string>
     <string name="event_address_ten">Vestry House Museum Community Room, Vestry Road</string>
     <string name="event_description_ten">Screening of short films produced in Walthamstow and beyond. Five minute drama, documentary, animation, experimental, silent and under 18s films from professionals, students and amateurs. Family friendly drop in event.</string>
-    
+
     <string name="event_title_eleven">SPEAK MACHINE: DROP-IN ANIMATION WORKSHOP</string>
     <string name="event_date_eleven">Sunday, 4 June, 11.30am-3.30pm</string>
     <string name="event_address_eleven">Walthamstow Pumphouse Museum, 10 South Access Road</string>
     <string name="event_description_eleven">Make animated films to illustrate the poem Speak Machine - a community STEM poem sampled by Forest Poets.Create and move props inspired by technology, transport and industrial heritage at the Pumphouse Museum. Screened on 18 June.</string>
-    
+
     <string name="event_title_twelve">COMMUNITY DRUM CIRCLE</string>
     <string name="event_date_twelve">Sunday, 4 June, 2-4pm</string>
     <string name="event_address_twelve">Town Square Entrance, The Mall, 45 Selborne Walk</string>
     <string name="event_description_twelve">Let off steam with DrumaSphere. Drumming together is fun. No previous experience necessary. 
         Come and take part in this facilitated community drum circle. </string>
-    
+
     <string name="event_title_thirteen">SEARCHING FOR THE BUILDING BLOCKS OF LIFE IN SPACE</string>
     <string name="event_date_thirteen">Sunday, 4 June, 2pm</string>
     <string name="event_address_thirteen">54 Church Hill (Side entrance Woodbury Road)</string>
@@ -92,8 +92,8 @@
 building blocks of life in space. 10 min talk followed by Q and A. Talks in
 partnership with Queen Mary University London to accompany Experimental
 Ceramics exhibiti on by Amanda Doidge.</string>
-    
-        
+
+
     <string name="event_title_fourteen">HOW DO CHOREOGRAPHERS USE MATHS?</string>
     <string name="event_date_fourteen">Sunday, 4 June, 2.30-3.15pm</string>
     <string name="event_address_fourteen">Gnome House, 7 Blackhorse Lane</string>
@@ -104,16 +104,16 @@ Free entry. Enquiries/to learn the dance
 and perform at the Walthamstow Garden
 Party to clarefarrow2@gmail.com
 07939 125014 </string>
-    
-        
+
+
     <string name="event_title_fifteen">BUILD YOUR OWN MOLECULE!</string>
     <string name="event_date_fifteen">Sunday, 4 June, 3pm</string>
     <string name="event_address_fifteen">54 Church Hill (Side entrance Woodbury Road)</string>
     <string name="event_description_fifteen">Dr David Quenard will lead a workshop aimed at ages 5 to adult (younger
 siblings welcome!). In partnership with Queen Mary University London to
 accompany Experimental Ceramics exhibition by Amanda Doidge.</string>
-    
-     <string name="event_title_sixteen">TELLING TALES TO LET OFF STEAM</string>
+
+    <string name="event_title_sixteen">TELLING TALES TO LET OFF STEAM</string>
     <string name="event_date_sixteen">Sunday, 4 June, 3-4.30pm</string>
     <string name="event_address_sixteen">Ye Olde Rose and Crown Theatre, 53 Hoe Street</string>
     <string name="event_description_sixteen">BACKSTORY Ensemble present E17 writer
@@ -124,15 +124,15 @@ and jazz singer Alice Mary J, and dancer
 Catriona Maccoll. Guests Mo Gallaccio
 and David McDade. Booking in advance
 recommended - 020 8509 3880</string>
-    
+
     <string name="event_title_seventeen">TREASURING OUR TWITTERNS</string>
     <string name="event_date_seventeen">Sunday, 4 June, 3-4pm</string>
     <string name="event_address_seventeen">Vestry House Museum, Vestry Road</string>
     <string name="event_description_seventeen">The footpaths of Waltham Forest fascinate and intrigue, but they are under
 threat. A walk exploring local footpaths to accompany the exhibition,
 meeting outside the Vestry House Museum.</string>
-    
-    
+
+
     <string name="event_title_eighteen">WFCH’S CREATIVE PEOPLE</string>
     <string name="event_date_eighteen">Waltham Forest Community Hub, 18a Orford Road</string>
     <string name="event_address_eighteen">Sunday, 4 June, 3-6pm</string>
@@ -143,7 +143,7 @@ Family-friendly community event with
 live music and refreshments. Exhibition
 also on exterior of building 3-5 June.
 020 8223 0707 </string>
-    
+
     <string name="event_title_nineteen">VIKINGS AND VALKYRIES (E17 PUPPET PROJECT)</string>
     <string name="event_date_nineteen">Sunday, 4 June, 5.30-6.30pm</string>
     <string name="event_address_nineteen">Street Gallery, Aubrey Road</string>
@@ -153,7 +153,7 @@ the Icelandic sagas with the legendary
 Volsung warriors. Magic, mythical
 wolves, gods, heroes and William Morris
 too! Ages 6+.</string>
-   
+
     <string name="event_title_twenty">WAVE COMMUNITY CHOIR - THE ELEMENTS</string>
     <string name="event_date_twenty">Wednesday, 7 June, 8-9.30pm</string>
     <string name="event_address_twenty">Harmony Hall, The Melody Room, 10 Truro Road</string>
@@ -164,14 +164,14 @@ with vocal harmonics, jazzy rhythms and
 tea, coffee and snacks. Why not join in,
 it’s free.</string>
 
-   
+
     <string name="event_title_twenty_one">INVISIBLE NUMBERS: LAUNCH EVENT</string>
     <string name="event_date_twenty_one">Thursday, 8 June, 6-8pm</string>
     <string name="event_address_twenty_one">Winns Gallery, Lloyd Park</string>
     <string name="event_description_twenty_one">Celebrate the opening of Invisible Numbers and meet the artists; with
 refreshments and music.</string>
 
-   
+
     <string name="event_title_twenty_two">SOUND KITCHEN</string>
     <string name="event_date_twenty_two">Friday, 9 June, 10am-12pm</string>
     <string name="event_address_twenty_two">Scout Hall, 205 Wood Street</string>
@@ -192,7 +192,7 @@ Palace to bring the splendour that is
 Gingo! to the Art Trail. Buckle up and
 adopt the brace positi on…</string>
 
-  
+
     <string name="event_title_twenty_four">PAINTING WITH LIGHT</string>
     <string name="event_date_twenty_four">Friday, 9 June, 9pm-10pm </string>
     <string name="event_address_twenty_four">Church of St Michael and All Angels, Northcote Road</string>
@@ -203,7 +203,7 @@ eye yet indecipherable, the images are
 revealed when viewed in long-exposure
 photographs. Free. Booking required. htt ps://ucldhpaintingwithlight.eventbrite.co.uk</string>
 
-    
+
     <string name="event_title_twenty_five">UKULELE ON THE STAIRS</string>
     <string name="event_date_twenty_five">Saturday, 10 June, 11am-4pm</string>
     <string name="event_address_twenty_five">29 Brettenham Rd</string>
@@ -213,13 +213,13 @@ go wrong? There will be solo ukulele, a
 sing-song, and if you email me a song
 you would like to sing/hear I will do my
 best to play it. therapyman@hotmail.com</string>
-    
+
     <string name="event_title_twenty_six">ST BARNABAS BUILDING BRIDGES WORKSHOP</string>
     <string name="event_date_twenty_six">Saturday, 10 June, 11am-5pm</string>
     <string name="event_address_twenty_six">St Barnabas Church, St Barnabas Road</string>
     <string name="event_description_twenty_six">Build and decorate a 6 metre bridge with Waltham Forest Stand Up to
-Racism. Materials provided. 07970 803585</string> 
-    
+Racism. Materials provided. 07970 803585</string>
+
     <string name="event_title_twenty_seven">E17 DESIGNERS’ SUMMER MARKET</string>
     <string name="event_date_twenty_seven">Saturday, 10 June, 12pm-4pm</string>
     <string name="event_address_twenty_seven">Mirth, Marvel and Maud, 186 Hoe Street</string>
@@ -248,5 +248,54 @@ that rhythm has on our physiology with Mbilla Arts. First half will focus on rhy
     <string name="event_description_thirty">A talk by artist Frances Cowper Holzhausen to accompany her exhibition,
 Look and Look Again. Book in advance by text or email. 07890 996916 or cowper@holzhausen.fsnet.co.uk</string>
 
+
+    <!-- Off the Map List -->
+    <string name="OTM_title_one">1000 SWIFTS OVER WALTHAMSTOW</string>
+    <string name="OTM_date_one">Daylight Hours</string>
+    <string name="OTM_address_one">Displayed in various locations all across E17</string>
+    <string name="OTM_description_one">Follow the ﬂock! Discover 1000 Swifts made by Walthamstow residents to
+        celebrate the opening of Walthamstow Wetlands later in the summer.
+        Swift maps will be available online and at E17 Art House, Stow Brothers, Debbie Bliss Home and The Mill.
+        Twitter: @1000Swifts</string>
+
+    <string name="OTM_title_two">ARTOGETHER</string>
+    <string name="OTM_date_two">Sat/Wed/Fri 11am-5pm, Sun 11am-4pm, Tue 11am-9pm</string>
+    <string name="OTM_address_two">Learning Lodge, Pimp Hall Nature Reserve E4 7HR</string>
+    <string name="OTM_description_two">A fabulous collection of paintings, from a vibrant adult art class based at
+        The Learning Lodge. Works from Chingford Drawing and Chingford Photographic Society.
+        Open Air Drawing Competition, 17 June, 11am-3pm. </string>
+
+    <string name="OTM_title_three">TURNING EARTH EXHIBITION</string>
+    <string name="OTM_date_three">3 - 18 June, 9am-5pm</string>
+    <string name="OTM_address_three">Light Haus Cafe, Lea Valley Works, 11a Argall Avenue, E10 7QE</string>
+    <string name="OTM_description_three">Come to Argall industrial estate to see handmade ceramics from 30 Turning Earth makers,
+        beautifully displayed in the Light Haus cafe at the front of the newly opened Lea Valley Works.
+        Pop in for a browse and a coﬀee. </string>
+
+    <string name="OTM_title_four">AN INVITATION TO STUDIOLIFE</string>
+    <string name="OTM_date_four">3, 4, 10 and 11 June, 11am-5pm</string>
+    <string name="OTM_address_four">Studiolife, Upstairs at Arbeit Studios, Unit OH, East 10, Enterprise Park, Leyton E10 7DQ</string>
+    <string name="OTM_description_four">A real-time immersion into our space to create.
+        Experience Studiolife from the shared perspective of a writer and a maker. </string>
+
+    <string name="OTM_title_five">BIRDBOX STORY TRAIL</string>
+    <string name="OTM_date_five">Daylight Hours</string>
+    <string name="OTM_address_five">Various locati ons around the Trail</string>
+    <string name="OTM_description_five">Follow a trail of decorated bird boxes across diﬀerent E17 Art Trail venues.
+        Find a notebook in each box and add to a collaborative story about the work on show.
+        Devised by folklorist Elizabeth Dearnley and poet Emma Hammond.
+        Follow social media to discover the Birdbox Story Trail @birdboxstories </string>
+
+    <string name="OTM_title_six">IN SEARCH OF GOLD</string>
+    <string name="OTM_date_six">24 hours</string>
+    <string name="OTM_address_six">www.eliyahqureshi.com</string>
+    <string name="OTM_description_six">Online exhibition launch.
+        Eliyah Qureshi is a contemporary artist of South Asian descent.
+        Her work can be viewed online throughout the E17 Art Trail at www.eliyahqureshi.com, at St Barnabas Church and at Pictorem Gallery. </string>
+
+    <string name="OTM_title_seven">2.0131</string>
+    <string name="OTM_date_seven">24 hours</string>
+    <string name="OTM_address_seven">www.roanallen.com</string>
+    <string name="OTM_description_seven">2.0131 </string>
 
 </resources>
