@@ -1,9 +1,8 @@
 package com.example.android.e17arttrail2017;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -18,8 +17,8 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private DrawerLayout drawerLayout;
-    private ListView drawerList;
+    public DrawerLayout drawerLayout;
+    public ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
     private ViewPager viewPager;
     private TabLayout tabLayout;
@@ -71,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         drawerList.setAdapter(new ArrayAdapter<String>(this, R.layout.menu_list_item, drawerMenu));
 
         // Set onClickListeners for each item in navigation drawer
-//        drawerList.setOnItemClickListener(new NavigationDrawerSelection());
+        drawerList.setOnItemClickListener(new NavigationDrawer());
 
         // Set up tab layout
         TabAdapter adapter = new TabAdapter(this, getSupportFragmentManager());
@@ -87,45 +86,6 @@ public class MainActivity extends AppCompatActivity {
         drawerToggle.syncState();
     }
 
-
-//    public class NavigationDrawerSelection implements ListView.OnItemClickListener {
-//
-//        @Override
-//        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//            displayFragment(position);
-//        }
-//
-//        // update view based on menu item selected
-//        public void displayFragment(int position) {
-//            Fragment fragment;
-//            switch (position) {
-//                case 0:
-//                    fragment = new HomeFragment();
-//                    break;
-//                case 1:
-//                    fragment = new EventsFragment();
-//                    break;
-//                case 2:
-//                    fragment = new OffTheMapFragment();
-//                    break;
-//                case 3:
-//                    fragment = new BlackhorseFragment();
-//                    break;
-//                default:
-//                    fragment = new HomeFragment();
-//                    break;
-//            }
-//
-//            // Update the main content view with selected fragment
-//            FragmentManager fragmentManager = getSupportFragmentManager();
-//            fragmentManager.beginTransaction().replace(R.id.view_pager, fragment).commit();
-//
-//            // Highlight the selected item and close the drawer
-//            drawerList.setItemChecked(position, true);
-//            drawerLayout.closeDrawer(drawerList);
-//        }
-//    }
-
     // method to return to last fragment on user pressing 'back'
     @Override
     public void onBackPressed() {
@@ -135,6 +95,40 @@ public class MainActivity extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
+    }
+
+    //Class for launching new activity when clicking items in navigation drawer
+    public class NavigationDrawer implements ListView.OnItemClickListener {
+
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Intent intent = null;
+            switch (position) {
+                case 0:
+                    intent = new Intent(MainActivity.this, AboutActivity.class);
+                    startActivity(intent);
+                    break;
+                case 1:
+                    intent = new Intent(MainActivity.this, AboutActivity.class);
+                    startActivity(intent);
+                    break;
+                case 2:
+                    intent = new Intent(MainActivity.this, AboutActivity.class);
+                    startActivity(intent);
+                    break;
+                case 3:
+                    intent = new Intent(MainActivity.this, AboutActivity.class);
+                    startActivity(intent);
+                    break;
+
+                default:
+            }
+
+            // Highlight the selected item and close the drawer
+            drawerList.setItemChecked(position, true);
+            drawerLayout.closeDrawer(drawerList);
+        }
+
     }
 }
 

@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/tabStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
     <!-- style for listview in navigation drawer -->
@@ -96,6 +98,21 @@
         <item name="android:layout_width">@dimen/image</item>
         <item name="android:layout_height">@dimen/image</item>
         <item name="android:padding">@dimen/narrow_padding</item>
+    </style>
+
+    <!-- style for tabs -->
+    <style name="tabStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="tabs" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>
+        <item name="tabTextAppearance">@style/TabAppearance</item>
+    </style>
+
+    <style name="TabAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/colorPrimary</item>
     </style>
 
 </resources>

@@ -15,7 +15,7 @@ public class TabAdapter extends FragmentPagerAdapter {
 
     public TabAdapter(Context context, FragmentManager fm) {
         super(fm);
-        context = context;
+        this.context = context;
     }
 
     // display appropriate fragment based on selection
@@ -36,14 +36,14 @@ public class TabAdapter extends FragmentPagerAdapter {
         return 3;
     }
 
-//    // Update title
-//    public CharSequence getPageTitle(int position) {
-//        if (position == 0) {
-//            return context.getString(R.string.events);
-//        } else if (position == 1) {
-//            return context.getString(R.string.off_the_map);
-//        } else {
-//            return context.getString(R.string.blackhorse);
-//        }
-//    }
+    @Override
+    public CharSequence getPageTitle(int position) {
+        if (position == 0) {
+            return context.getString(R.string.events);
+        } else if (position == 1) {
+            return context.getString(R.string.off_the_map);
+        } else {
+            return context.getString(R.string.blackhorse);
+        }
+    }
 }

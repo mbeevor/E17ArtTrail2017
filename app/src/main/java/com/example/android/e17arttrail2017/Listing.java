@@ -10,13 +10,13 @@ public class Listing {
 
     // constant value setting default as 'no image'
     private static final int NO_IMAGE = -1;
-    private String EventName;
-    private String EventDate;
-    private String EventLocation;
-    private String EventDescription;
+    private int EventName;
+    private int EventDate;
+    private int EventLocation;
+    private int EventDescription;
     private int EventImage = NO_IMAGE;
 
-    public Listing(String eventName, String eventDate, String eventLocation, String eventDescription, int eventImage) {
+    public Listing(int eventName, int eventDate, int eventLocation, int eventDescription, int eventImage) {
         EventName = eventName;
         EventDate = eventDate;
         EventLocation = eventLocation;
@@ -24,7 +24,7 @@ public class Listing {
         EventImage = eventImage;
     }
 
-    public Listing(String eventName, String eventDate, String eventLocation, String eventDescription) {
+    public Listing(int eventName, int eventDate, int eventLocation, int eventDescription) {
         EventName = eventName;
         EventDate = eventDate;
         EventLocation = eventLocation;
@@ -32,19 +32,19 @@ public class Listing {
 
     }
 
-    public String getEventName() {
+    public int getEventName() {
         return EventName;
     }
 
-    public String getEventDate() {
+    public int getEventDate() {
         return EventDate;
     }
 
-    public String getEventLocation() {
+    public int getEventLocation() {
         return EventLocation;
     }
 
-    public String getEventDescription() {
+    public int getEventDescription() {
         return EventDescription;
     }
 

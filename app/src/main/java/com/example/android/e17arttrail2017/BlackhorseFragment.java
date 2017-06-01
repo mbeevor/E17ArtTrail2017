@@ -16,22 +16,21 @@ import java.util.ArrayList;
  */
 public class BlackhorseFragment extends Fragment {
 
+    public BlackhorseFragment() {
+        // Required empty public constructor
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.event_list, container, false);
 
         final ArrayList<Listing> events = new ArrayList<Listing>();
-        events.add(new Listing("Process Paper Making and Print Making", "The Lodge Walthamstow School for Girls", "Saturday 3 June 9 until 12pm", "Drop in to create your own paper and print"));
 
         ListAdapter adapter = new ListAdapter(getActivity(), events);
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         return rootView;
-    }
-
-    public BlackhorseFragment() {
-        // Required empty public constructor
     }
 }
 
