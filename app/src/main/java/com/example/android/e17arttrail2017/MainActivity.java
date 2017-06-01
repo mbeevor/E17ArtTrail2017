@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     public DrawerLayout drawerLayout;
     public ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
-    private ViewPager viewPager;
-    private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Find resources for navigation tabs
-        viewPager = (ViewPager) findViewById(R.id.view_pager);
-        tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
 
         // Find resources for navigation drawer
         String[] drawerMenu = getResources().getStringArray(R.array.drawer_menu);
@@ -105,22 +103,15 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = null;
             switch (position) {
                 case 0:
-                    intent = new Intent(MainActivity.this, AboutActivity.class);
-                    startActivity(intent);
                     break;
                 case 1:
                     intent = new Intent(MainActivity.this, AboutActivity.class);
                     startActivity(intent);
                     break;
                 case 2:
-                    intent = new Intent(MainActivity.this, AboutActivity.class);
+                    intent = new Intent(MainActivity.this, SponsorActivity.class);
                     startActivity(intent);
                     break;
-                case 3:
-                    intent = new Intent(MainActivity.this, AboutActivity.class);
-                    startActivity(intent);
-                    break;
-
                 default:
             }
 

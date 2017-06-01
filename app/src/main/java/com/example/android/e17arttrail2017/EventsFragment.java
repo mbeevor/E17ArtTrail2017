@@ -42,7 +42,7 @@ public class EventsFragment extends Fragment {
         events.add(new Listing(R.string.event_title_fifteen, R.string.event_date_fifteen, R.string.event_address_fifteen, R.string.event_description_fifteen));
         events.add(new Listing(R.string.event_title_sixteen, R.string.event_date_sixteen, R.string.event_address_sixteen, R.string.event_description_sixteen));
         events.add(new Listing(R.string.event_title_seventeen, R.string.event_date_seventeen, R.string.event_address_seventeen, R.string.event_description_seventeen));
-        events.add(new Listing(R.string.event_title_eighteen, R.string.event_date_eightteen, R.string.event_address_eighteen, R.string.event_description_eighteen));
+        events.add(new Listing(R.string.event_title_eighteen, R.string.event_date_eighteen, R.string.event_address_eighteen, R.string.event_description_eighteen));
         events.add(new Listing(R.string.event_title_nineteen, R.string.event_date_nineteen, R.string.event_address_nineteen, R.string.event_description_nineteen));
         events.add(new Listing(R.string.event_title_twenty, R.string.event_date_twenty, R.string.event_address_twenty, R.string.event_description_twenty));
 

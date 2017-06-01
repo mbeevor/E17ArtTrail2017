@@ -12,7 +12,6 @@
     <!-- menu array list for navigation drawer -->
     <string-array name="drawer_menu">
         <item>About Us</item>
-        <item>Contact Us</item>
         <item>Our Sponsors</item>
     </string-array>
 
@@ -20,8 +19,9 @@
     <string name="drawer_close">Navigation drawer closed</string>
     
     <!-- Sponsor text -->
-    <string name="sponsor">Messages from our funder</string>
-    <string name="sponsor_text">Waltham Forest Council is delighted to be supporting the E17 Art Trail again in 2017. The E17 Art Trail is recognised in the borough and beyond as making a significant contribution to local arts and culture, and improving the quality of lives of Waltham Forest residents. It showcases and celebrates the amazing talent, creativity, diversity, ambition, and hospitality of so many of our residents, creating a sense of pride for local people and attracting new visitors to the borough. In the spirit of William Morris, the E17 Art Trail is all about creative participation for residents, which reflects Waltham Forest’s aspirations for ‘Art for All’.</string>
+    <string name="sponsor">Message from our funder</string>
+    <string name="sponsor_sub_heading">Waltham Forest Council is delighted to be supporting the E17 Art Trail again in 2017</string>
+    <string name="sponsor_text">The E17 Art Trail is recognised in the borough and beyond as making a significant contribution to local arts and culture, and improving the quality of lives of Waltham Forest residents. It showcases and celebrates the amazing talent, creativity, diversity, ambition, and hospitality of so many of our residents, creating a sense of pride for local people and attracting new visitors to the borough. In the spirit of William Morris, the E17 Art Trail is all about creative participation for residents, which reflects Waltham Forest’s aspirations for Art for All.</string>
     
     <!-- Event Calendar List -->
     <string name="event_title_one">PROCESS: PAPER MAKING AND PRINT MAKING</string>

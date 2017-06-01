@@ -9,7 +9,7 @@ import android.widget.TextView;
  * Created by mbeev on 01/06/2017.
  */
 
-public class AboutActivity extends AppCompatActivity {
+public class SponsorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,13 +17,13 @@ public class AboutActivity extends AppCompatActivity {
         setContentView(R.layout.drawer_activity);
 
         TextView textViewHeading = (TextView) findViewById(R.id.drawer_heading);
-        textViewHeading.setText(R.string.heading);
+        textViewHeading.setText(R.string.sponsor);
 
         TextView textViewSubHeading = (TextView) findViewById(R.id.drawer_sub_heading);
-        textViewSubHeading.setText(R.string.sub_heading);
+        textViewSubHeading.setText(R.string.sponsor_sub_heading);
 
         TextView textView = (TextView) findViewById(R.id.drawer_text);
-        textView.setText(R.string.intro_text);
+        textView.setText(R.string.sponsor_text);
 
         // Set Toolbar to replace the ActionBar.
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -33,7 +33,6 @@ public class AboutActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-
-
     }
+
 }
